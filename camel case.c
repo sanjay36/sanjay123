@@ -3,22 +3,22 @@
 
 void main()
 {
-	char s[100];
+	char v[100];
 	int l,i;
-	gets(s);
-	l=strlen(s);
+	gets(v);
+	l=strlen(v);
 	for(i=0;i<l;i++)
 	{
 	    if(i==0)
 	    {
-	    s[0]=toupper(s[0]);
+	    v[0]=toupper(v[0]);
 	    }
-	    if(s[i]==' ')
+	    if(v[i]==' ')
 	    {
-	    s[i+1]=toupper(s[i+1]);
+	    v[i+1]=toupper(v[i+1]);
 	    }
 	    
 	}
-	printf("%s",s);
+	printf("%s",v);
 		
 }
